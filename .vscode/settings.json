@@ -1,0 +1,25 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "always"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "workbench.editor.customLabels.patterns": {
+    "**/src/app/**/page.tsx": "${dirname} - Page",
+    "**/src/app/**/index.tsx": "${dirname} - Index",
+    "**/src/app/**/layout.tsx": "${dirname} - Layout",
+    "**/src/app/**/template.tsx": "${dirname} - Template",
+    "**/src/components/**/index.tsx": "${dirname} - Component"
+  },
+  "workbench.editor.customLabels.colors": {
+    "Page": "#FF0000",
+    "Index": "#00FF00",
+    "Layout": "#0000FF",
+    "Template": "#FFFF00",
+    "Component": "#FF00FF"
+  }
+}
